@@ -24,6 +24,10 @@ a{
       text-align: center;
       list-style: none;
   }
+  
+  .header_icon{
+    padding : 0 40px 0px;
+  }
 
   .top_menu_list > ul{
     background-color: #64b7db;

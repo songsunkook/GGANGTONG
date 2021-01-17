@@ -11,37 +11,38 @@
 <body>
     <!-- Top subject -->
     <div id = "header" class = "top_user_serarch">
-        <ul>
-            <li class = "user_info"> 
-                <img src = "user_img.png" title = "유저 정보 로고.png" width = "40px"> </li>
-            <li class = "web_serarch">
-                <img src = "serarch_img.png" title = "검색 로고.png" width = "40px"> </li>
+        <ul class = "header_icon" style="text-align:right">
+            <img class = "user_info" src = "user_img.png" title = "유저 정보 로고.png" width = "40px">
+            <img class = "web_serarch" src = "serarch_img.png" title = "검색 로고.png" width = "40px">
         </ul>
     </div>
 
     <!-- Menu Button -->
     <nav class = "top_menu_list">
         <ul id="tml" class = "tml_style">
+            <a id="tml_logo" class="tml_logo" href="#">
+                <img src="serarch_img.png" title = "공식 로고.png" alt="로그리이크" width = "40px">
+            </a>
             <li>
-                <a id="tmlt_official" class="tml_style_t" href="#">공식</a>
+                <a id="tmlt_official" class="tml_style_t" href="#/o/">공식</a>
                 <ul class="tml_btn">
-                    <li><a id="tml_official_notice" href="#">공지사항</a></li>
-                    <li><a id="tml_official_patch" href="#">패치노트</a></li>
-                    <li><a id="tml_official_event" href="#">이벤트</a></li>
+                    <li><a id="tml_official_notice" href="#/o/notice">공지사항</a></li>
+                    <li><a id="tml_official_patch" href="#/o/patch">패치노트</a></li>
+                    <li><a id="tml_official_event" href="#/o/event">이벤트</a></li>
                 </ul>
             </li>
             <li>
-                <a id="tmlt_community" class="tml_style_t" href="#">커뮤니티</a>
+                <a id="tmlt_community" class="tml_style_t" href="#/c/">커뮤니티</a>
                 <ul class="tml_btn">
-                    <li><a id="tml_community_free" href="#">자유게시판</a></li>
-                    <li><a id="tml_community_walk" href="#">공략게시판</a></li>
+                    <li><a id="tml_community_free" href="#/c/free">자유게시판</a></li>
+                    <li><a id="tml_community_walk" href="#/c/walk">공략게시판</a></li>
                 </ul>
             </li>
             <li>
-                <a id="tmlt_cs" class="tml_style_t" href="#">고객지원</a>
+                <a id="tmlt_cs" class="tml_style_t" href="#/s/">고객지원</a>
                 <ul class="tml_btn">
-                    <li><a id="tmlt_cs_faq" href="#">FAQ</a></li>
-                    <li><a id="tmlt_cs_inquiry" href="#">1:1문의</a></li>
+                    <li><a id="tmlt_cs_faq" href="#/s/faq">FAQ</a></li>
+                    <li><a id="tmlt_cs_inquiry" href="#/s/inquiry">1:1문의</a></li>
                 </ul>
             </li>
             <li>
